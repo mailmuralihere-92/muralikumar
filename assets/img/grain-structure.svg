@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="">
+  <defs>
+    <radialGradient id="gb" cx="30%" cy="22%" r="95%">
+      <stop offset="0" stop-color="#141a17"/>
+      <stop offset="55%" stop-color="#0c0d0c"/>
+      <stop offset="1" stop-color="#050605"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#gb)"/>
+  <g fill="none" stroke="#18d26e" stroke-opacity="0.10" stroke-width="2">
+    <path d="M-20 180 L210 90 L430 210 L470 430 L300 560 L60 520 L-20 360 Z"/>
+    <path d="M210 90 L470 40 L690 130 L620 320 L470 430 L430 210 Z"/>
+    <path d="M470 40 L760 70 L900 220 L760 360 L620 320 L690 130 Z"/>
+    <path d="M760 70 L1030 30 L1180 160 L1080 340 L900 220 Z"/>
+    <path d="M1030 30 L1340 60 L1470 210 L1300 360 L1180 160 Z"/>
+    <path d="M1340 60 L1640 40 L1660 260 L1470 210 Z"/>
+    <path d="M300 560 L470 430 L620 320 L760 360 L740 620 L520 720 Z"/>
+    <path d="M760 360 L900 220 L1080 340 L1120 560 L920 660 L740 620 Z"/>
+    <path d="M1080 340 L1300 360 L1470 210 L1660 260 L1640 520 L1360 600 L1120 560 Z"/>
+    <path d="M60 520 L300 560 L520 720 L420 940 L120 980 L-20 760 Z"/>
+    <path d="M520 720 L740 620 L920 660 L980 900 L760 1020 L420 940 Z"/>
+    <path d="M920 660 L1120 560 L1360 600 L1420 860 L1180 980 L980 900 Z"/>
+    <path d="M1360 600 L1640 520 L1660 900 L1420 860 Z"/>
+  </g>
+  <g fill="#18d26e" fill-opacity="0.14">
+    <circle cx="300" cy="560" r="4"/><circle cx="760" cy="360" r="4"/><circle cx="1080" cy="340" r="4"/>
+    <circle cx="470" cy="430" r="3"/><circle cx="920" cy="660" r="3"/><circle cx="1360" cy="600" r="4"/>
+    <circle cx="620" cy="320" r="3"/><circle cx="1180" cy="160" r="3"/><circle cx="520" cy="720" r="4"/>
+  </g>
+</svg>

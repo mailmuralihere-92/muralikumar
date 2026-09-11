@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-label="Charpy impact of LPBF titanium">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#15171a"/><stop offset="1" stop-color="#0a0b0c"/>
+    </linearGradient>
+    <pattern id="hex" width="44" height="38" patternUnits="userSpaceOnUse" patternTransform="scale(1.4)">
+      <path d="M22 1 L43 12.5 L43 25.5 L22 37 L1 25.5 L1 12.5 Z" fill="none" stroke="#ffffff" stroke-opacity="0.045" stroke-width="1.1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#hex)"/>
+  
+  <g stroke="#18d26e" fill="none" stroke-width="3">
+    <path d="M470 70 L620 250" stroke-opacity="0.9"/>
+    <path d="M300 250 L620 250" stroke="#dfe6e3" stroke-opacity="0.35"/>
+  </g>
+  <circle cx="470" cy="70" r="7" fill="#18d26e"/>
+  <circle cx="620" cy="250" r="34" fill="#18d26e" fill-opacity="0.25" stroke="#18d26e" stroke-width="3"/>
+  <path d="M300 250 L330 250 L345 225 L365 275 L385 220 L405 270 L420 245 L455 245" fill="none" stroke="#dfe6e3" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M180 250 A180 180 0 0 1 470 70" fill="none" stroke="#dfe6e3" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="4 7"/>
+
+  <g transform="translate(28,28)">
+    <rect x="0" y="0" width="177" height="30" rx="15" fill="#18d26e" fill-opacity="0.14" stroke="#18d26e" stroke-opacity="0.55"/>
+    <text x="18" y="20" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="600" fill="#7be8b0" letter-spacing="1">Ti-6Al-4V / IMPACT</text>
+  </g>
+</svg>

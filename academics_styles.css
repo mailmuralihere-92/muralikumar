@@ -1,0 +1,80 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Content Container */
+.container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* Page Title */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Education Sections */
+.education-section {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Background Colors for Sections */
+.blue-bg {
+    background: #007bff;
+    color: white;
+}
+
+.gray-bg {
+    background: #f8f9fa;
+    color: #333;
+}
+
+/* Headings */
+h2, h3 {
+    margin-bottom: 5px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Paragraph Styling */
+p {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Bullet Points */
+ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Adjust Bullet Colors Based on Section */
+.blue-bg ul li {
+    color: #fff;
+}
+
+.gray-bg ul li {
+    color: #333;
+}
