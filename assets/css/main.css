@@ -756,6 +756,7 @@ section,
 .hero .container {
   position: relative;
   z-index: 3;
+  max-width: min(95vw, 1500px);
 }
 
 .hero-grid {
@@ -780,7 +781,7 @@ section,
 
 .hero-photo-frame {
   position: relative;
-  width: min(100%, 750px);
+  width: min(100%, 950px);
 }
 
 /* soft light behind the figure so the cut-out reads against the dark section */
