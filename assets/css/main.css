@@ -759,7 +759,7 @@ section,
 }
 
 .hero-grid {
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   gap: clamp(24px, 4vw, 64px);
 }
@@ -780,7 +780,7 @@ section,
 
 .hero-photo-frame {
   position: relative;
-  width: min(100%, 500px);
+  width: min(100%, 750px);
 }
 
 /* soft light behind the figure so the cut-out reads against the dark section */
@@ -800,7 +800,7 @@ section,
   display: block;
   width: 100%;
   height: auto;
-  max-height: 74vh;
+  max-height: 85vh;
 }
 
 .hero-photo img:not(.is-placeholder) {
@@ -992,7 +992,7 @@ section,
 /* Shorter desktop windows: keep the portrait from tucking under the header */
 @media (min-width: 993px) and (max-height: 820px) {
   .hero-photo-frame {
-    width: min(100%, 420px);
+    width: min(100%, 630px);
   }
 }
 
@@ -1021,7 +1021,7 @@ section,
   }
 
   .hero-photo-frame {
-    width: min(480px, 90%);
+    width: min(720px, 90%);
   }
 
   .hero::before {
@@ -2120,7 +2120,7 @@ section,
 @media (max-width: 768px) {
 
   .hero-photo-frame {
-    width: min(420px, 92%);
+    width: min(630px, 92%);
   }
 
   .hero-profile {
