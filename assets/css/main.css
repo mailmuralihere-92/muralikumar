@@ -759,7 +759,7 @@ section,
 }
 
 .hero-grid {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   gap: clamp(24px, 4vw, 64px);
 }
