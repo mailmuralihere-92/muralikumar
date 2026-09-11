@@ -2261,6 +2261,90 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Language proficiency bars (About page)
+--------------------------------------------------------------*/
+.language-levels {
+  margin-top: 30px;
+}
+
+.language-levels h3 {
+  color: var(--heading-color);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.language-bars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  column-gap: 28px;
+  row-gap: 18px;
+}
+
+.language-bar-head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.language-bar-name {
+  color: var(--heading-color);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.lang-level {
+  border-radius: 999px;
+  display: inline-block;
+  font-family: var(--nav-font);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 3px 10px;
+  text-transform: uppercase;
+}
+
+.lang-level.expert {
+  background: color-mix(in srgb, var(--accent-color), transparent 12%);
+  color: #062012;
+}
+
+.lang-level.intermediate {
+  background: color-mix(in srgb, #ffbb2c, transparent 15%);
+  color: #3a2400;
+}
+
+.lang-level.beginner {
+  background: color-mix(in srgb, var(--default-color), transparent 85%);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 65%);
+  color: color-mix(in srgb, var(--default-color), transparent 10%);
+}
+
+.language-bar-track {
+  background: color-mix(in srgb, var(--default-color), transparent 90%);
+  border-radius: 999px;
+  height: 9px;
+  overflow: hidden;
+}
+
+.language-bar-fill {
+  background: linear-gradient(90deg,
+    color-mix(in srgb, var(--accent-color), black 20%),
+    var(--accent-color) 55%,
+    color-mix(in srgb, var(--accent-color), white 55%));
+  border-radius: 999px;
+  box-shadow: 0 0 12px color-mix(in srgb, var(--accent-color), transparent 45%);
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .language-bars {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*--------------------------------------------------------------
 # Mobile refinements (longer name + hero card fit)
 --------------------------------------------------------------*/
 @media (max-width: 575px) {
